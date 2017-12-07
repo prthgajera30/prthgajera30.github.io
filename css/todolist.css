@@ -1,0 +1,105 @@
+html
+{
+	display:block;
+
+}
+body {
+	background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+   	margin:0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+#container
+{
+	margin:5em auto;
+	width:25em;
+	
+}
+#header{
+	
+	font-size: 2em;
+	display: block;
+	background-color: #00cccc;
+	overflow:auto;
+	padding: 0.3em 1em 0.3em 1em;
+	text-transform: uppercase;
+}
+#header > span{
+	padding-right:0.5em;
+	float: left;
+	overflow: hidden;
+}
+.fa-pencil{
+	float: left;
+	margin-top: 0.2em;
+	cursor: pointer;
+}
+.fa-plus {
+	float:right;
+	padding-right: 0.5em;
+	cursor: pointer;
+	margin-top: 0.2em;
+}
+.fa-question{
+	float:right;
+	margin-top: 0.2em;
+	cursor: pointer;
+}
+.toDoInput{
+	width: 99%;
+	padding: 0.5em 0em 0.5em 0em;
+	font-size: 1.2em;
+	display: none;
+	transition: 0.1s linear all;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.task{
+	background-color: #ff471a;
+	color: white;
+	padding: 1em;
+	opacity: 0;
+	display: inline-block;
+	transition: 0.2s linear all;
+	width: 0em;
+	text-align: center;
+	cursor: pointer;
+}
+li{
+	font-size: 1.2em;
+}
+li:hover span{
+	opacity: 1;
+	//display: inline;
+	margin-left: 0em;
+	transition: 0.2	s linear all;
+	width: 0.8em;
+}
+li:nth-child(2n)
+{
+	background-color: #f2f2f2;
+}
+li:nth-child(2n-1)
+{
+	background-color: #ffffff;
+}
+i{
+	overflow: hidden;	
+}
+.finished{
+	text-decoration:line-through;
+	color: #a6a6a6;
+}
+#footer{
+	text-align: center;
+	color: #ffffff;
+}
