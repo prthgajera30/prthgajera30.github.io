@@ -50,8 +50,8 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 	cursor: pointer;
 }
 .toDoInput{
-	width: 99%;
-	padding: 0.5em 0em 0.5em 0em;
+	width: 88%;
+	padding: 0.5em 0em 0.5em 2.3em;
 	font-size: 1.2em;
 	display: none;
 	transition: 0.1s linear all;
